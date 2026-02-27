@@ -1,20 +1,31 @@
-body {
+* {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 20px;
-    background-color: rgb(252, 211, 211);
 }
 
-/* Selector de clase */
-.class_selector {
-    font-size: 40px;
-    color: brown;
-    font-weight: bold;
+body {
+    line-height: 1.6;
+    background-color: #a7c957;
 }
 
-/* Selector de ID */
-#id_selector {
+/* combinación de selectores */
+#selectores_universal_combinaciones{
+    font-size: 25px;
+    color: #386641;
+}
+
+#selectores_universal_combinaciones p{
+    color: #af3131;
+    font-size: 23px;
+}
+
+#selectores_universal_combinaciones ul li strong{
+    color: #0693ba;
+    font-size: 10px;
+}
+
+/* Si tiene una coma no es una combinación de selectores, es un selector múltiple */
+p, li{
+    color: #272727;
     font-size: 20px;
-    color: darkmagenta;
-    font-style: italic;
 }
