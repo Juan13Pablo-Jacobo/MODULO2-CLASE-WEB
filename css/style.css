@@ -4,3 +4,17 @@ body {
     margin: 20px;
     background-color: rgb(252, 211, 211);
 }
+
+/* Selector de clase */
+.class_selector {
+    font-size: 40px;
+    color: brown;
+    font-weight: bold;
+}
+
+/* Selector de ID */
+#id_selector {
+    font-size: 20px;
+    color: darkmagenta;
+    font-style: italic;
+}
